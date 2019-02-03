@@ -1,0 +1,4 @@
+#zfs setting
+0 6 * * * cd /root/zfstool;./daily_bkup1.sh; ./daily_bkup2.sh
+0 7 1 * * cd /root/zfstool;./scrub1.sh; ./scrub2.sh
+
